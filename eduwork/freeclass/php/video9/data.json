@@ -1,0 +1,12 @@
+[
+    {
+        "nama" : "Ahmad",
+        "kelas" : "Laravel",
+        "umur" : 17
+    },
+    {
+        "nama" : "Rifai",
+        "kelas" : "Mechine Learning",
+        "umur" : 19
+    }
+]
