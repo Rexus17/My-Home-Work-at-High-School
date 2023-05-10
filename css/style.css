@@ -1,0 +1,92 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,200;0,300;0,400;1,300;1,400&display=swap');
+
+html {
+	position: relative;
+}
+
+body{
+	background-color: pink;
+	font-family: 'Poppins', sans-serif;
+	color: #2D2D2D; 
+	font-size: 14px;
+}
+
+.form-control{
+	font-size: 14px;
+}
+
+/* start jumbotron */
+
+.jumbotron {
+	height: 400px;
+	background-image: url('../gambar/133803011-knitted-fabric-texture-pink-knitted-background-modern-sweater.jpg');
+	background-attachment: fixed;
+	background-size: cover;
+	background-position: 0 -100px;
+	color: lavender;
+	overflow: hidden;
+}
+
+.jumbotron img {
+	width: 200px;
+	/* border: 100% solid #666;
+	box-shadow: 1px 1px 10px rgba(0, 0, 0, 0.5); */
+}
+
+.jumbotron h1, .jumbotron p {
+	/* text-shadow: 1px 1px 10px rgba(0, 0, 0, 0.5); */
+	color: black;
+}
+
+/* end jumbotron */
+
+.portfolio .thumbnail.muncul {
+	opacity: 1;
+	transform: translate(0, 0);
+}
+
+
+/* start sapa */
+
+hr {
+	width: 250px;
+	border-top: 3px solid #999;
+}
+
+section {
+	min-height: 600px;
+}
+
+.pKiri, .pKanan {
+	opacity: 0;
+	transform: translate(-50px, 0) rotate(15deg);
+	transition: 1s;
+}
+
+.pKanan {
+	transform: translate(50px, 0) rotate(-15deg);
+}
+
+.pKiri.pMuncul, .pKanan.pMuncul {
+	opacity: 1;
+	transform: translate(0, 0);
+}
+
+.row {
+	color: aliceblue;
+}
+
+/* end sapa */
+
+
+
+@media screen and (min-width: 994px){
+	.form-control{
+		width: 350px;
+
+	}
+}
+
+
+
+
