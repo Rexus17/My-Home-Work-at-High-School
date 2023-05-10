@@ -1,0 +1,22 @@
+body {
+    background-image: url(../material/polonez_car.png);
+}
+
+h1 {
+    font-size: 40px;
+    font-family: cursive;
+}
+
+p {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.row {
+    width: 900px;
+}
+
+.form-floating {
+    width: 600px;
+}
+
+
